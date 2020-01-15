@@ -41,7 +41,7 @@ def get_credentials():
 	# Api endpoint for sending emails
 	SCOPES = 'https://www.googleapis.com/auth/gmail.send'
 
-	CLIENT_SECRET_FILE = 'Gmail_credentials\client_secret.json'
+	CLIENT_SECRET_FILE = 'Auto Mailer/Gmail_credentials\client_secret.json'
 	APPLICATION_NAME = 'Mail Automation'
 	
 	home_dir = os.path.expanduser('~')
