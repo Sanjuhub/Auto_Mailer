@@ -33,4 +33,6 @@ To install required python packages:
   
 To Install googleapiclient Packages:
 >>> pip install --upgrade google-api-python-client
-  
+
+<b>Usage</b>
+I developed this piece of code for sending emails to the developers about the bugs reported on the project. This was a part of program which get the list of bugs created and assigned to the developers from the Project management tool, create ticktes on jira for them and then send emails to the developers on daily basis.
